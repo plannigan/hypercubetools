@@ -1,0 +1,17 @@
+site_name: Hypercube Tools
+theme: alabaster
+repo_url: https://github.com/plannigan/hypercubtools/
+edit_uri: blob/master/docs/
+docs_dir: src
+
+markdown_extensions:
+  - toc:
+      permalink: "¶"
+
+extra:
+  homepage_nav: false
+  homepage_sidebars:
+    - about
+  logo: logo.png
+  logo_title: "Hypercube Tools logo"
+  show_powered_by: false
